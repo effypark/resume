@@ -1,3 +1,318 @@
-<html>
-  <div>resume</div>
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>박혜린 이력서</title>
+    <meta name="theme-color" content="#3a7bd5" />
+    <meta
+      name="description"
+      content="프론트엔드 엔지니어, 박혜린의 이력서입니다."
+    />
+
+    <meta property="og:url" content="https://effypark.github.io/resume" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="박혜린 이력서" />
+    <!-- <meta property="og:image" content="./resume-cover.png" /> -->
+    <meta
+      property="og:description"
+      content="프론트엔드 엔지니어, 박혜린의 이력서입니다."
+    />
+    <meta property="og:locale" content="ko_KR" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@effypark" />
+    <meta name="twitter:url" content="https://effypark.github.io/resume" />
+    <meta name="twitter:title" content="박혜린 이력서" />
+    <meta
+      name="twitter:description"
+      content="프론트엔드 엔지니어, 박혜린의 이력서입니다."
+    />
+    <!-- <meta name="twitter:image" content="./resume-cover.png" /> -->
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+    />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <main>
+      <article>
+        <section>
+          <h1>박혜린</h1>
+          <h2>Frontend Engineer</h2>
+          <div class="info">
+            <p>2년차 프론트엔드 엔지니어 <strong>박혜린</strong>입니다.</p>
+            <p>한 눈에 들어오는 UI, 편한 UX를 위해 노력합니다.</p>
+            <p>
+              주체적으로 일하는 것을 좋아하며,
+              <br />함께 일하는 동료들과 신뢰를 바탕으로 서로를 존중하며
+              성장하는 환경에서 일하고 싶습니다.
+            </p>
+          </div>
+
+          <div class="contact-wrapper">
+            <a href="mailto:likehyelin@gmail.com"
+              >EMAIL : likehyelin@gmail.com</a
+            >
+            <span class="phone">PHONE : 010-2300-1883</span>
+          </div>
+
+          <div class="button-wrapper">
+            <button onclick="openLink('https://github.com/effypark')">
+              GitHub 방문하기
+            </button>
+            <button onclick="openLink('https://velog.io/@effypark')">
+              Blog 방문하기
+            </button>
+            <button>portfolio 보러가기</button>
+          </div>
+        </section>
+
+        <section class="work-section">
+          <h2>Work Experience<span class="period-mark">.</span></h2>
+
+          <div class="row">
+            <div class="row-left">
+              <h3>라이크낫 주식회사</h3>
+              <span> 2022.11 - 현재 </span>
+            </div>
+
+            <div class="row-right">
+              <div class="project">
+                <h3>
+                  여성 속옷 플랫폼 POOLA v1<span class="period-mark">.</span>
+                </h3>
+                <span>2022.11 - 현재</span>
+                <h4>Description<span class="period-mark">.</span></h4>
+                <p>
+                  체형 큐레이션을 제공하는 여성 속옷 플랫폼<span
+                    class="period-mark"
+                    >.</span
+                  >
+                </p>
+                <p>유지보수 및 개발을 담당하고 있습니다.</p>
+
+                <h4>What did I do<span class="period-mark">.</span></h4>
+                <ul>
+                  <li>프로젝트 전반 코드 베이스 개선, 레거시 리팩토링</li>
+                  <li>각종 A/B 테스트 구현을 통한 전환률 향상에 기여</li>
+                  <li>CRM/분석 툴 세팅 및 페이지 이벤트 지표 측정</li>
+                  <li>
+                    메인 페이지, 상품 상세 페이지, 결제 페이지, 환불 페이지 등
+                    기존 페이지 UI 개편 및 디버깅
+                  </li>
+                  <li>각종 컴포넌트 및 페이지 신규 개발</li>
+                </ul>
+
+                <h4>Stack<span class="period-mark">.</span></h4>
+                <p>React.js, Styled-components, Redux, Axios</p>
+              </div>
+              <div class="project">
+                <h3>
+                  여성 속옷 플랫폼 POOLA v2<span class="period-mark">.</span>
+                </h3>
+                <span>2023.3 - 현재</span>
+                <h4>Description<span class="period-mark">.</span></h4>
+                <p>
+                  이 프로젝트는 레거시인 v1을 고도화한 프로젝트로, 설계부터
+                  개발까지 혼자 진행하였으며 전반적인 플로우를 완성했습니다.
+                </p>
+                <p>
+                  커머스 특성 상 중요도가 높은 SEO 최적화 및 코드 분할 전략을
+                  위해 Next.js 를 채택하여 구축하였으며,
+                </p>
+                <p>코드 품질 향상을 위해 TypeScript를 도입했습니다.</p>
+
+                <h4>What did I do<span class="period-mark">.</span></h4>
+                <ul>
+                  <li>
+                    SSR 기반으로 커머스 플랫폼의 전반적인 플로우를 구현하여,
+                    고객이 제품을 검색하고 선택하며 결제까지 이어지는 전 과정을
+                    개발
+                  </li>
+                  <li>
+                    Redux-Toolkit로 전역 상태를 관리하여 코드의 가독성을
+                    향상시키고 불필요한 보일러플레이트 코드를 감소시켜
+                    유지보수성을 향상
+                  </li>
+                  <li>코드 분할 전략으로 렌더링 속도 향상</li>
+                  <li>
+                    개발 환경, 프로젝트의 구조, Trouble Shooting 등에 대한
+                    부분을 문서화
+                  </li>
+                </ul>
+                <h4>Stack<span class="period-mark">.</span></h4>
+                <p>
+                  Next.js, TypeScript, Redux-Toolkit, Styled-components,
+                  React-Query
+                </p>
+              </div>
+              <div class="project">
+                <h3>AI 속옷 상담사<span class="period-mark">.</span></h3>
+                <span>2023.6</span>
+                <h4>Description<span class="period-mark">.</span></h4>
+                <p>
+                  속옷 브랜드 "컴포트랩"과 협업하여 진행한 사내 사이드 프로젝트
+                </p>
+                <p>
+                  사용자가 검색한 내용과 컴포트랩 속옷 리뷰를 매칭하여 상품을
+                  추천해주는 검색용 웹사이트
+                </p>
+                <p>
+                  단순 검색용 웹 어플리케이션으로, 혼자 개발을 진행하였습니다.
+                </p>
+
+                <h4>What did I do<span class="period-mark">.</span></h4>
+                <ul>
+                  <li>SSR 기반 웹 어플리케이션 구축 및 개발</li>
+                </ul>
+                <h4>Stack<span class="period-mark">.</span></h4>
+                <p>Next.js, TypeScript, Styled-components, React-Query</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="row-left">
+              <h3>(주) 메디아이플러스</h3>
+              <span>2022.6 - 2022.11</span>
+              <span>2022.6 - 2022.11</span>
+            </div>
+
+            <div class="row-right">
+              <div class="project">
+                <h3>
+                  임상시험수탁기관(CRO) 연계서비스 플랫폼 FiCRO<span
+                    class="period-mark"
+                    >.</span
+                  >
+                </h3>
+                <span>2022.11 - 현재</span>
+                <h4>Description<span class="period-mark">.</span></h4>
+                <p>
+                  글로벌 임상시험 데이터를 기반으로 임상시험수탁기관을 연계
+                  서비스를 제공하는 B2B 플랫폼<span class="period-mark">.</span>
+                </p>
+                <p>
+                  클라이언트 영역은 전부 혼자 작업하였으며, 프로젝트 초기 설계
+                  및 구성을 시작으로 어드민을 포함하여 서비스 단의 회원가입부터
+                  연계 서비스에 필요한 의뢰, 사업분야 설정 등까지 기능 개발을
+                  완료하여 베타 버전을 런칭하였습니다.
+                </p>
+
+                <h4>What did I do<span class="period-mark">.</span></h4>
+                <ul>
+                  <li>
+                    의뢰사 및 수탁사 회원가입 및 로그인, 계정찾기, 마이페이지
+                    수정 구현
+                  </li>
+                  <li>의뢰 신청, 사업분야 설정 기능 구현</li>
+                  <li>CRUD 기능을 포함한 어드민 개발</li>
+                  <li>이메일 템플릿 구축</li>
+                  <li>
+                    디자이너와 협업하여 MUI 컴포넌트를 커스터마이징하여 UI
+                    컴포넌트 체계화
+                  </li>
+                  <li>
+                    Recoil을 도입하여 시간과 코드량 단축 및 직관적인 유지보수화
+                  </li>
+                </ul>
+                <h4>Stack<span class="period-mark">.</span></h4>
+                <p>React, TypeScript, Recoil, MUI, emotion</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="row-left">
+              <h3>(주) 볼드나인</h3>
+              <span> 2022.2 - 2022.3</span>
+              <span>FE 인턴</span>
+            </div>
+
+            <div class="row-right">
+              <div class="project">
+                <h3>
+                  이커머스 풀필먼트 서비스<span class="period-mark">.</span>
+                </h3>
+                <h4>Description<span class="period-mark">.</span></h4>
+                <p>
+                  이커머스 풀필먼트 서비스를 제공하는 (주)볼드나인에서 한달 간
+                  인턴쉽 진행
+                </p>
+                <h4>What did I do<span class="period-mark">.</span></h4>
+                <ul>
+                  <li>반응형 견적 요청서 페이지 UI 구현 및 기능 구현</li>
+                </ul>
+                <h4>Stack<span class="period-mark">.</span></h4>
+                <p>Next.js, TypeScript, Styled-components</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Other Experience<span class="period-mark">.</span></h2>
+          <h4>플로리스트</h4>
+          <ul>
+            <li>
+              제주 그랜드 하얏트
+              <span>2020.11 - 2021.12</span>
+            </li>
+            <li>
+              프리랜서
+              <span>2017.02 - 2017.12</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="education-section">
+          <h2>Education<span class="period-mark">.</span></h2>
+          <h4>위코드 부트캠프 29기 수료</h4>
+          <span>2021.12 - 2022.3</span>
+        </section>
+
+        <section>
+          <h2>About Me<span class="period-mark">.</span></h2>
+          <ul>
+            <li>
+              저는 플로리스트에서의 경험을 통해 웹 프론트엔드 개발자로의 전환을
+              성공적으로 이루어낸 열정적인 개발자입니다. 창조물의 아름다움을
+              전하는 플로리스트로서의 경력은 고객과의 소통과 세세한 디자인에
+              대한 감각을 키우는 데 큰 영감을 주었습니다.
+            </li>
+            <li>
+              이제는 그 경험을 기반으로 웹 프론트엔드 개발에 몰두하고 있습니다.
+              최신 웹 트렌드와 기술에 대한 끊임없는 탐구로, 사용자 경험을
+              개선하고 동적이며 효과적인 웹 애플리케이션을 구현하는 것에 열정을
+              쏟고 있습니다. React와 JavaScript를 중심으로 한 기술 스택을
+              활용하여 멋진 프론트엔드 솔루션을 창조하고자 합니다.
+            </li>
+            <li>리팩토링은 개발 중 가장 즐겁게 참여하는 부분 중 하나입니다.</li>
+            <li>
+              주로 혼자서 프론트엔드 개발을 주도적으로 수행하며, 빠른 실행력과
+              도전의식으로 업무에 임하고 있습니다.
+            </li>
+            <li>
+              동료들과 함께 일하는 것을 기대하며, 원활한 협업과 유지보수를 위해
+              로직을 모듈화하고 브랜치 전략, 구조 설계 등을 문서화하는 것을
+              선호합니다.
+            </li>
+          </ul>
+        </section>
+      </article>
+    </main>
+    <script>
+      function openLink(url) {
+        window.open(url, "_blank");
+      }
+    </script>
+  </body>
 </html>
